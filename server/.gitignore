@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/  // Ignore node_modules folder
+
+# Environment variables
+.env  // Ignore environment variables file
+
+# Logs
+logs/  // Ignore logs folder
+*.log  // Ignore all log files
+npm-debug.log*  // Ignore npm debug log files
+yarn-debug.log*  // Ignore Yarn debug log files
+yarn-error.log*  // Ignore Yarn error log files
+
+# OS-specific files
+.DS_Store  // Ignore macOS Finder attributes file
+Thumbs.db  // Ignore Windows Explorer attributes file
+
+# Editor-specific files
+.vscode/  // Ignore Visual Studio Code settings folder
+.idea/  // Ignore JetBrains IDE settings folder
+*.sublime-project  // Ignore Sublime Text project files
+*.sublime-workspace  // Ignore Sublime Text workspace files
+
+# Build output
+dist/  // Ignore build output folder for some build tools
+build/  // Ignore build output folder for some build tools
+
+# Others
+*.log  // Ignore log files
